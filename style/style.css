@@ -21,6 +21,7 @@
 body {
 	background-image: url('../background/1579515150563.jpg');
 	background-color: #262626;
+	background-size: cover;
 }
 
 .everything {

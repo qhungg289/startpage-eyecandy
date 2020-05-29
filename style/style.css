@@ -1,0 +1,77 @@
+@font-face {
+	font-family: "VCR_OSD_MONO_1.001";
+	src: url("../fonts/VCR_OSD_MONO_1.001.ttf");
+}
+
+@font-face {
+    font-family: "MadHacker";
+    src: url("../fonts/MadHacker.ttf");
+}
+
+/*Change font and colors*/
+:root {
+	--font: "VCR_OSD_MONO_1.001";
+	--font2: "MadHacker";
+	--bgcolor:  #262626;
+	--linkcolor: #DCDCDC;
+}
+
+/*-----------------------------------------------------------*/
+
+body {
+	background-image: url('../background/1579515150563.jpg');
+	background-color: #262626;
+}
+
+.everything {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.link {
+	display: inline-block;
+	margin: 1%;
+	height: 185px;
+	width: 140px;
+	text-align: left;
+	padding-left: 3%;
+	background-color: var(--bgcolor);
+	border-radius: 8px;
+	box-shadow: 2px 2px 8px #000000;
+}
+
+.box {
+	width: 750px;
+}
+
+ul {
+	padding-inline-start: 0;
+	list-style: none;
+}
+
+a {
+	display: block;
+	line-height: 2.4em;
+	font-family: var(--font);
+	color: var(--linkcolor);
+	font-size: 1rem;
+	text-decoration: none;
+	outline: none;
+	transition: .2s;
+}
+
+a:hover {
+	color: #7C7C7C;
+}
+
+.time {
+    font-family: var(--font2);
+    font-size: 5.5rem;
+    margin: 50px 0px 50px 0px;
+    color: var(--linkcolor);
+	text-shadow: -5px 5px 0px #13707e, -10px 10px 0px #167f8f, -15px 15px 0px #188ea0;
+}
+

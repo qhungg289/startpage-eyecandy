@@ -2,4 +2,4 @@
 
 ![Preview](/preview.png)
 
-![Live preview](https://qhungg289.github.io/startpage-eyecandy/)
+[Live preview](https://qhungg289.github.io/startpage-eyecandy/)

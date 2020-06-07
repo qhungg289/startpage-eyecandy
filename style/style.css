@@ -17,7 +17,24 @@
 }
 
 /*-----------------------------------------------------------*/
-
+input {
+    height: inherit;
+    width: 600px;
+    background: #262626;
+    color: var(--linkcolor);
+    font: 15px "VCR_OSD_MONO_1.001";
+    font-weight: bold;
+    line-height: 1.8em;
+    box-shadow: 1px 1px 3px #000000;
+    border: none;
+    text-align: center;
+    border-radius: 8px;
+    outline: none;
+    padding: 7px 14px;
+    font-size: 18;
+    grid-column: 1 / -1;
+    margin: 0px 0px 30px 0px;;
+}
 body {
 	background-image: url('../background/1579515150563.jpg');
 	background-color: #262626;

@@ -65,6 +65,28 @@ body {
 	width: 750px;
 }
 
+@media only screen and (max-width: 785px) {
+  .box {
+    height: auto;
+  }
+  #clock {
+    margin-top: 1em;
+  }
+ 
+ input {  
+ width: 75%
+ }
+ 
+  .box {
+    flex-direction: column;
+    width: 60%;
+  }
+  .box {
+    width: auto;
+    margin: 1em 0em;
+  }
+}
+
 ul {
 	padding-inline-start: 0;
 	list-style: none;
